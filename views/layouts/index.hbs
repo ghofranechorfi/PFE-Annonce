@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />  
+    <title>My Awesome App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/public/style/style.css" />
+    <link rel="stylesheet" href="/style/signup.css">
+    <link rel="stylesheet" href="/style/signin.css">
+  </head>
+  <body>
+
+  <header class="p-2 shadow mb-5 bg-body" style="height: 80px;">
+        <nav class="d-flex justify-content-around p-2 bd-highlight">
+            <div class="d-flex justify-content-start">
+                <a href="#" id="logo" style="color:#6b6bff;" class="fw-bolder fs-2 text-decoration-none">FORSA</a>
+            </div>
+            
+            <div>
+                <div class="input-group">
+                    <div class="form-outline">
+                        <input type="search" id="form1" class="form-control" placeholder="Search"/>
+                        <label class="form-label" for="form1"><label>
+                    </div>
+                    <button type="button" class="btn btn-primary h-25"> <i class="bi bi-search"> </i> </button>
+                </div>
+            </div>
+
+            <div>
+              <i class="bi bi-heart me-3"></i>
+              <button type="button" class="btn btn-primary rounded ml-5" data-bs-toggle="modal" data-bs-target="#myModal">
+                <i class="bi bi-person"></i> 
+                Me connecter 
+              </button>
+
+              <div class="modal mt-6" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Se connecter</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div>
+                      <form class="m-5">
+                      <div class="form-group">
+                        <div class="form-label-group">
+                          <label for="inputEmail">Email :</label>
+                          <input type="email" id="inputEmail" class="form-control w-50" placeholder="Email address" required="required" autofocus="autofocus">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="form-label-group">
+                          <label for="inputEmail">Password :</label>
+                          <input type="password" id="inputPassword" class="form-control w-50" placeholder="Password" required="required">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="checkbox">
+                          <label>
+                              <input type="checkbox" value="remember-me">
+                              Remember Password
+                            </label>
+                        </div>
+                      </div>
+                      <a class="btn btn-primary btn-block justify-center" href="index.html">Login</a>
+                    </form>
+
+                    <div class="text-center">
+                      <a class="d-block medium" href="forgot-password.html">Forgot Password?</a>
+                    </div>
+                  </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>    
+        </nav>
+  </header>
+
+  {{{body}}}
+
+  <footer class="text-center text-lg-start text-white fixed-bottom" style="background-color: rgb(0, 0, 0);">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2020 Copyright:
+      <a class="text-white" href="">MDBootstrap.com</a>
+    </div>
+  </footer>
+
+</div>
+    
+    <script src="/public/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  </body>
+</html>
